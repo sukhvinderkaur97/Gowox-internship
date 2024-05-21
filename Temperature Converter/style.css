@@ -32,7 +32,7 @@ body{
 
 .title{
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
 }
 
@@ -42,8 +42,8 @@ body{
 }
 
 .result-heading{
-    color: #555;
-    font-size: 1rem;
+    color: #f2cdcd;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
