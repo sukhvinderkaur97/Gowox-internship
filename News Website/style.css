@@ -65,8 +65,6 @@ hr{
     height: auto;
 }
 
-/********************/
-
 .nav-bar ul li{
     text-align: center;
     display: block;
@@ -140,6 +138,7 @@ hr{
     color: #0d0a0b;
 }
 
+/* main news */
 
 .current-news-head{
     background: #fff;
@@ -381,7 +380,7 @@ footer > p{
     border-bottom: 1.6px solid #808080;
 }
 
-
+/* responsiveness */
 
 @media(max-width: 460px){
     .hot-topic-content h2{
