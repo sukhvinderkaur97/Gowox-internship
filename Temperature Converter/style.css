@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     width: 100vh;
     height: 100vh;
     display: flex;
@@ -16,7 +16,7 @@ body{
     font-size: 1rem;
 }
 
-.temp-convert{
+.temp-convert {
     background: linear-gradient(90deg, #fe9ac9 0%, #da2f62 100%);
     width: 100%;
     min-width: 320px;
@@ -30,49 +30,50 @@ body{
     backdrop-filter: blur(21px);
 }
 
-.title{
+.title {
     color: #fff;
     font-size: 1.7rem;
     text-align: center;
 }
 
-.result{
+.result {
     text-align: center;
     margin: 20px 0;
 }
 
-.result-heading{
+.result-heading {
     color: #f2cdcd;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-.celsius-value{
+.celsius-value {
     border-bottom: 2px solid #ccc;
     padding: 10px;
     transition: all .45s ease;
 }
 
-.degree-type{
+.degree-type {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 }
 
-.degree-field{
+.degree-field {
     display: flex;
     flex-direction: column;
     width: 46%;
 }
 
-label{
+label {
     color: #555;
     font-size: 1rem;
     margin-bottom: 5px;
 }
 
-input, select{
+input,
+select {
     background: transparent;
     border: none;
     outline: none;
@@ -81,21 +82,21 @@ input, select{
     margin-bottom: 15px;
 }
 
-input:focus{
+input:focus {
     border: 1px solid #f349af;
 }
 
-option{
+option {
     background: #f03c87;
     color: #f6f6f6;
 }
 
-#convert-btn{
+#convert-btn {
     border: none;
     outline: none;
     border-radius: 5px;
     background: #fff;
-    color:#fe1ca4;
+    color: #fe1ca4;
     padding: 12px 80px;
     font-size: 1rem;
     font-weight: bolder;
@@ -106,16 +107,16 @@ option{
     cursor: pointer;
 }
 
-#convert-btn:hover{
+#convert-btn:hover {
     color: #fff;
     background: #da2f62;
 }
 
-.fa{
+.fa {
     margin-left: -12px;
     margin-right: 8px;
 }
 
 .loading {
     display: none;
-  }
+}
