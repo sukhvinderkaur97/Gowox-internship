@@ -380,7 +380,7 @@ footer > p{
     border-bottom: 1.6px solid #808080;
 }
 
-/* responsiveness */
+/* for small screens */
 
 @media(max-width: 460px){
     .hot-topic-content h2{
