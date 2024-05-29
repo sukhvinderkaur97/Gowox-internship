@@ -15,7 +15,6 @@ if(degree.value === ""){
   }, 4000);
 }
 
-
 convertBtn.addEventListener("click", (e) => {
   e.preventDefault();
   convertToCelsius();

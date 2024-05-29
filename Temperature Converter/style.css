@@ -16,7 +16,7 @@ body {
     font-size: 1rem;
 }
 
-.temp-convert {
+.temp-converter {
     background: linear-gradient(90deg, #fe9ac9 0%, #da2f62 100%);
     width: 100%;
     min-width: 320px;
