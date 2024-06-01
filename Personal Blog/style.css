@@ -213,6 +213,8 @@ html {
     color: var(--foreground-primary);
 }
 
+/* header */
+
 header {
     background: var(--background-primary);
 }
