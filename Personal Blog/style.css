@@ -327,31 +327,31 @@ header .btn-group {
     padding-top: 2rem;
     padding-bottom: var(--py);
     text-align: center;
-  }
-  
-  .hero .h1 {
+}
+
+.hero .h1 {
     margin-bottom: 1rem;
     line-height: 1.6;
-  }
-  
-  .hero b {
+}
+
+.hero b {
     color: var(--accent);
     font-weight: inherit;
-  }
-  
-  .hero .h3 {
+}
+
+.hero .h3 {
     color: var(--foreground-secondary);
     margin-bottom: 2rem;
-  }
-  
-  .hero .btn-group {
+}
+
+.hero .btn-group {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
     text-align: center;
-  }
-  
-  .hero .right {
+}
+
+.hero .right {
     display: none;
-  }
+}
