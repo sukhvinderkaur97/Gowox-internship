@@ -453,7 +453,6 @@ header .btn-group {
     background: var(--foreground-tertiary);
     margin-inline: 3px;
     margin: 0 3px;
-    /* fallback for margin-inline */
     width: 3px;
     height: 3px;
     border-radius: 3px;
@@ -466,7 +465,6 @@ header .btn-group {
   .load-more {
     margin-inline: auto;
     margin: auto;
-    /* fallback for margin-inline */
     background: var(--foreground-secondary);
     color: var(--background-secondary);
     padding: 0.6875rem 1.1875rem;
