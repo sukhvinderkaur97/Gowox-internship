@@ -360,6 +360,8 @@ header .btn-group {
     display: none;
 }
 
+/* blog section */
+
 .main {
     background: var(--background-secondary);
     padding: var(--py) 0;
