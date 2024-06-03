@@ -32,6 +32,8 @@
 
 }
 
+/* overall elements */
+
 :root {
     --white: hsl(0, 0%, 100%);
     --fs-base: 0.85rem;
