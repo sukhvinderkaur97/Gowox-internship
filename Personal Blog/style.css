@@ -475,3 +475,11 @@ header .btn-group {
 .load-more:hover {
     background: var(--accent);
 }
+
+/*-----------------------------------*\ 
+  #ASIDE
+\*-----------------------------------*/
+
+.aside {
+    display: none;
+  }
