@@ -464,6 +464,8 @@ header .btn-group {
     --ionicon-stroke-width: 50px;
 }
 
+
+
 .load-more {
     margin-inline: auto;
     margin: auto;
@@ -472,13 +474,13 @@ header .btn-group {
     padding: 0.6875rem 1.1875rem;
 }
 
+
+
 .load-more:hover {
     background: var(--accent);
 }
 
-/*-----------------------------------*\ 
-  #ASIDE
-\*-----------------------------------*/
+/* aside section */
 
 .aside {
     display: none;
