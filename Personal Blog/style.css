@@ -39,22 +39,10 @@
     --fs-3: 1.25rem;
     --fs-4: 0.875rem;
     --fs-5: 0.75rem;
-  
-    /**
-     * spacing 
-     */
-  
     --py: 5rem;
   
   }
-  
-  
-  
-  
-  
-  /*-----------------------------------*\ 
-    #RESET
-  \*-----------------------------------*/
+
   
   *,
   *::before,
@@ -92,18 +80,12 @@
   html {
     font-family: "Inter", sans-serif;
     font-size: var(--fs-base);
-    /* base font-size (0.85rem = 13.6px) */
     line-height: 1.8;
   }
   
   :focus {
     outline-offset: 4px;
   }
-  
-  
-  /**
-   * scrollbar style
-   */
   
   ::-webkit-scrollbar {
     width: 16px;
@@ -132,13 +114,6 @@
     background: hsl(219, 27%, 20%);
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\ 
-    #BASE STYLE
-  \*-----------------------------------*/
   
   .h1,
   .h2,
@@ -177,17 +152,9 @@
   }
   
   
-  
-  
-  
-  /*-----------------------------------*\ 
-    #REUSED STYLE
-  \*-----------------------------------*/
-  
   .container {
     margin-inline: auto;
     margin: auto;
-    /* fallback for margin-inline */
     padding: 0 15px;
   }
   
@@ -222,13 +189,7 @@
     border-color: var(--accent);
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\ 
-    #Extra style for dark theme
-  \*-----------------------------------*/
+
   
   .dark-theme .navbar h1 {
     color: var(--foreground-primary);
@@ -255,13 +216,7 @@
   .dark-theme .aside .h2 {
     color: var(--foreground-primary);
   }
-  
-  
-  
-  
-  /*-----------------------------------*\ 
-    #HEADER
-  \*-----------------------------------*/
+
   
   header {
     background: var(--background-primary);
