@@ -327,13 +327,7 @@
     color: var(--accent);
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\ 
-    #HERO SECTION
-  \*-----------------------------------*/
+  /* hero section */
   
   .hero {
     background: var(--background-primary);
@@ -369,13 +363,7 @@
     display: none;
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\ 
-    #BLOG SECTION
-  \*-----------------------------------*/
+  /* blog section */
   
   .main {
     background: var(--background-secondary);
@@ -470,7 +458,6 @@
     background: var(--foreground-tertiary);
     margin-inline: 3px;
     margin: 0 3px;
-    /* fallback for margin-inline */
     width: 3px;
     height: 3px;
     border-radius: 3px;
@@ -483,7 +470,6 @@
   .load-more {
     margin-inline: auto;
     margin: auto;
-    /* fallback for margin-inline */
     background: var(--foreground-secondary);
     color: var(--background-secondary);
     padding: 0.6875rem 1.1875rem;
