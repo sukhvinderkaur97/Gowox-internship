@@ -1,8 +1,4 @@
 .light-theme {
-
-    /**
-     * light theme colors 
-    */
   
     --background-primary: hsl(0, 0%, 100%);
     --background-secondary: hsl(0, 0%, 97%);
@@ -20,10 +16,6 @@
   
   .dark-theme {
   
-    /**
-     * dark theme colors 
-     */
-  
     --background-primary: hsl(218, 23%, 23%);
     --background-secondary: hsl(220, 26%, 14%);
   
@@ -40,16 +32,7 @@
   
   :root {
   
-    /**
-     * color
-     */
-  
     --white: hsl(0, 0%, 100%);
-  
-    /**
-     * typography 
-     */
-  
     --fs-base: 0.85rem;
     --fs-1: 1.875rem;
     --fs-2: 1.5rem;
