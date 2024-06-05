@@ -479,25 +479,13 @@
     background: var(--accent);
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\ 
-    #ASIDE
-  \*-----------------------------------*/
+  /* aside */
   
   .aside {
     display: none;
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\ 
-    #FOOTER
-  \*-----------------------------------*/
+  /* footer */
   
   footer {
     background: var(--background-primary);
@@ -529,7 +517,6 @@
     max-width: 300px;
     margin-inline: auto;
     margin: auto;
-    /* fallback for margin-inline */
     font-size: 0.9rem;
   }
   
