@@ -1,24 +1,8 @@
-/*-----------------------------------*\ 
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee 
- */
-
-
-
-
-
-/*-----------------------------------*\ 
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 .light-theme {
 
     /**
      * light theme colors 
-     */
+    */
   
     --background-primary: hsl(0, 0%, 100%);
     --background-secondary: hsl(0, 0%, 97%);
@@ -1207,7 +1191,6 @@
     .newsletter .btn-primary {
       margin-inline: auto;
       margin: auto;
-      /* fallback for margin-inline */
     }
   
   
