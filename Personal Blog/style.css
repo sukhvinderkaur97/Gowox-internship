@@ -550,36 +550,16 @@
   .copyright a:hover {
     text-decoration: underline;
   }
-  
-  
-  
-  
-  
-  /*-----------------------------------*\ 
-    #MEDIA QUERIES
-  \*-----------------------------------*/
-  
-  /**
-   * responsive for larger than 550px screen
-   */
+
+  /* responsive */
   
   @media (min-width: 550px) {
   
     :root {
   
-      /**
-       * typography 
-       */
-  
       --fs-base: 0.90rem;
   
     }
-  
-  
-    /**
-     * BLOG 
-     */
-  
     .blog-card {
       display: grid;
       grid-template-columns: 3fr 4fr;
@@ -600,51 +580,22 @@
   
   }
   
-  
-  
-  
-  
-  /**
-   * responsive for larger than 650px screen
-   */
-  
   @media (min-width: 650px) {
   
     :root {
   
-      /**
-       * typography 
-       */
-  
       --fs-1: 2.25rem;
   
     }
-  
-  
-  
-    /**
-     * REUSED STYLE 
-     */
-  
     .container {
       padding: 0 30px;
     }
-  
-  
-  
-    /**
-     * HEADER 
-     */
+
   
     .navbar {
       padding: 30px 0;
     }
   
-  
-  
-    /**
-     * BLOG 
-     */
   
     .blog .h2 {
       position: relative;
@@ -704,12 +655,6 @@
       gap: 0;
     }
   
-  
-  
-    /**
-     * FOOTER 
-     */
-  
     footer .container {
       padding: var(--py) 30px;
       grid-template-columns: 2fr 1fr 1fr;
@@ -725,19 +670,7 @@
   
   }
   
-  
-  
-  
-  
-  /**
-   * responsive for larger than 768px screen
-   */
-  
   @media (min-width: 768px) {
-  
-    /**
-     * REUSED STYLE 
-     */
   
     .container {
       max-width: 800px;
@@ -746,41 +679,17 @@
   }
   
   
-  
-  
-  
-  /**
-   * responsive for larger than 1024px screen
-   */
-  
   @media (min-width: 1024px) {
   
     :root {
-  
-      /**
-       * typography 
-       */
   
       --fs-base: 1rem;
       --fs-1: 3rem;
   
     }
-  
-  
-  
-    /**
-     * REUSED STYLE 
-     */
-  
     .container {
       max-width: 1150px;
     }
-  
-  
-  
-    /**
-     * HEADER 
-     */
   
     header .btn-group {
       display: none;
@@ -844,12 +753,7 @@
     .theme-btn-desktop.dark::before {
       left: calc(100% - 24px);
     }
-  
-  
-  
-    /**
-     * HERO 
-     */
+
   
     .hero {
       text-align: left;
@@ -931,13 +835,6 @@
       grid-template-columns: 5fr 2fr;
       gap: 60px;
     }
-  
-  
-  
-    /**
-     * ASIDE 
-     */
-  
     .aside {
       display: block;
       align-self: stretch;
@@ -1103,12 +1000,6 @@
       margin-inline: auto;
       margin: auto;
     }
-  
-  
-  
-    /**
-     * FOOTER 
-     */
   
     .footer-title {
       font-size: 1.125rem;
